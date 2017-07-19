@@ -1,0 +1,61 @@
+33d32945 stp file, stp format version 1.0
+
+section comment
+name    "se03"
+creator "thorsten koch and alexander martin"
+remark  "root = 7/8 n for n = 3 example" 
+end
+
+section graph
+nodes  13
+edges  21
+e  1  2  2
+e  1  4  2
+e  1  6  2
+e  2  8  2
+e  4 10  2
+e  6 12  2
+e  3  9  1
+e  5 11  1
+e  7 13  1
+e  2  3  1
+e  3  4  1
+e  4  5  1
+e  5  6  1
+e  6  7  1
+e  7  2  1
+e  8  9  2
+e  9 10  2
+e 10 11  2
+e 11 12  2
+e 12 13  2
+e 13  8  2
+end
+
+section terminals
+terminals 4
+t 1
+t 8
+t 10
+t 12
+end
+
+section coordinates
+dd  1 3 3
+dd  2 3 2
+dd  3 3 4
+dd  4 4 4
+dd  5 3 4
+dd  6 2 4
+dd  7 2 3
+dd  8 3 1
+dd  9 5 2
+dd 10 5 5
+dd 11 3 5
+dd 12 1 5
+dd 13 1 2
+end
+
+cost 12
+eof
+

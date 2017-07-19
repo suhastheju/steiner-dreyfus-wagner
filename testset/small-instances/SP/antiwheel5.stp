@@ -1,0 +1,42 @@
+33d32945 stp file, stp format version 1.0
+
+section comment
+name    "antiwheel5"
+creator "thorsten koch and alexander martin"
+remark  "odd antiwheel with 5 nodes"
+end
+
+section graph
+nodes 10
+edges 15
+
+e 1 2 1
+e 2 3 1
+e 3 4 1
+e 4 5 1
+e 5 6 1
+e 6 7 1
+e 7 8 1
+e 8 9 1
+e 9 10 1
+e 10 1 1
+e 2 6 1
+e 2 8 1
+e 4 8 1
+e 4 10 1
+e 6 10 1
+end
+
+section terminals
+terminals 5
+t 1
+t 3
+t 5
+t 7
+t 9
+end
+
+cost 7
+
+eof
+

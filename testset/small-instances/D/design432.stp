@@ -1,0 +1,46 @@
+33d32945 stp file, stp format version 1.0
+
+section comment
+name    "design432"
+creator "thorsten koch and alexander martin"
+remark  "goemans design 4,3,2 facett"
+end
+
+section graph
+nodes 8
+edges 20
+
+e 1 2 3
+e 2 3 3
+e 3 4 3
+e 4 1 3
+e 1 5 2
+e 1 6 2
+e 1 8 2
+e 2 5 2
+e 2 6 2
+e 2 7 2
+e 3 6 2
+e 3 7 2 
+e 3 8 2
+e 4 5 2
+e 4 7 2
+e 4 8 2
+e 5 6 1 
+e 6 7 1
+e 7 8 1
+e 8 5 1
+end
+
+section terminals
+terminals 4
+t 1
+t 2
+t 3
+t 4
+end
+
+cost 9
+
+eof
+

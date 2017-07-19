@@ -1,0 +1,35 @@
+33d32945 stp file, stp format version 1.0
+
+section comment
+name    "oddwheel3"
+creator "thorsten koch and alexander martin"
+remark  "odd wheel of size 3"
+end
+
+section graph
+nodes 7
+edges 9
+
+e 1 2 1
+e 1 6 1
+e 2 3 1
+e 2 7 1
+e 3 4 1
+e 4 5 1
+e 4 7 1
+e 5 6 1
+e 6 7 1
+end
+
+section terminals
+terminals 4
+t 1
+t 3
+t 5
+t 7
+end
+
+cost 5
+
+eof
+

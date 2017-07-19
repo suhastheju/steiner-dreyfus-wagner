@@ -1,0 +1,91 @@
+33d32945 stp file, stp format version 1.0
+
+section comment
+name    "b01"
+creator "j. e. beasley"
+remark  "sparse graph with random weights"
+end
+
+section graph
+nodes 50
+edges 63
+e 2 8 8
+e 2 21 7
+e 2 32 2
+e 4 5 8
+e 7 29 7
+e 11 3 7
+e 14 31 9
+e 17 6 7
+e 17 42 6
+e 18 19 2
+e 18 28 1
+e 18 43 1
+e 19 2 5
+e 20 7 3
+e 20 14 7
+e 20 16 8
+e 20 27 2
+e 20 38 8
+e 20 40 10
+e 20 48 2
+e 21 12 7
+e 21 17 5
+e 21 18 10
+e 22 10 6
+e 22 20 2
+e 22 21 2
+e 22 40 8
+e 22 43 7
+e 25 34 4
+e 27 34 4
+e 28 5 8
+e 28 24 5
+e 29 9 5
+e 29 33 7
+e 30 5 4
+e 30 15 1
+e 30 16 2
+e 33 35 3
+e 34 20 10
+e 34 30 2
+e 36 2 8
+e 36 4 6
+e 36 11 9
+e 36 39 7
+e 36 49 9
+e 36 50 10
+e 40 15 10
+e 40 23 3
+e 41 1 5
+e 41 22 8
+e 41 25 5
+e 41 36 2
+e 41 44 7
+e 41 47 7
+e 42 6 9
+e 42 46 10
+e 44 24 8
+e 44 39 3
+e 45 26 6
+e 45 28 1
+e 47 37 3
+e 47 45 10
+e 50 13 1
+end
+
+section terminals
+terminals 9
+t 48
+t 49
+t 22
+t 35
+t 27
+t 12
+t 37
+t 34
+t 24
+end
+
+cost 82
+eof
